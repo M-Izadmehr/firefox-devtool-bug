@@ -1,4 +1,6 @@
 ## Firefox devtools bug presentation
+![Video of Issue](video.gif)
+
 If "search as you type" feature is enabled on firefox, all devtool input do not receive `onchange` event at all.
 This repository shows this bug in firefox. This bug has severe effect on multiple famous firefox devtool extensions too, such as:
 * react-devtools, 
